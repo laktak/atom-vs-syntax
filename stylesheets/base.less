@@ -1,0 +1,198 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.comment {
+  color: #008000;
+}
+
+.variable {
+  color: #000000;
+}
+
+.keyword {
+  color: #0000FF;
+}
+
+.constant.numeric {
+  color: #A31515;
+}
+
+.constant {
+  color: #000000;
+}
+
+.constant.language {
+  color: #000000;
+}
+
+.constant.language.boolean {
+  color: #0000FF;
+}
+
+.string {
+  color: #A31515;
+}
+
+.constant.character.escape, .string .source {
+  color: #26B31A;
+}
+
+.meta.preprocessor {
+  color: #0000FF;
+}
+
+.keyword.control.import {
+  color: #0000FF;
+}
+
+.entity.name.function, .keyword.other.name-of-parameter.objc {
+  color: #000000;
+}
+
+.entity.name.type {
+  color: #000000;
+}
+
+.storage.type {
+  color: #0000FF;
+}
+
+.storage.modifier {
+  color: #0000FF;
+}
+
+.entity.other.inherited-class {
+}
+
+.variable.parameter {
+}
+
+.storage.type.method {
+  color: #70727E;
+}
+
+.meta.section .entity.name.section, .declaration.section .entity.name.section {
+}
+
+.support.function {
+  color: #000000;
+}
+
+.support.class, .support.type {
+  color: #000000;
+}
+
+.support.constant {
+  color: #000000;
+}
+
+.support.variable {
+  color: #000000;
+}
+
+.keyword.operator.js {
+  color: #687687;
+}
+
+.invalid {
+  color: #FF0000;
+  background-color: #FFFFFF;
+}
+
+.invalid.deprecated.trailing-whitespace {
+  background-color: #FFD0D0;
+}
+
+.text .source, .string.unquoted {
+  background-color: rgba(66, 127, 245, 0.19);
+}
+
+.meta.xml-processing, .declaration.xml-processing {
+  color: #68685B;
+}
+
+.meta.doctype, .declaration.doctype {
+  color: #A31515;
+}
+
+.meta.doctype.DTD, .declaration.doctype.DTD {
+}
+
+.meta.tag, .declaration.tag {
+  color: #0000FF;
+}
+
+.entity.name.tag {
+  color: #A31515;
+}
+
+.entity.other.attribute-name {
+  color: #FF0000;
+}
+
+.string.quoted.double.xml, .string.quoted.double.html {
+  color: #0000FF;
+}
+
+.markup.heading {
+  color: #0C07FF;
+}
+
+.markup.quote {
+  color: #000000;
+}
+
+.markup.list {
+  color: #B90690;
+}
