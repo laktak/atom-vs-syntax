@@ -1,7 +1,7 @@
 {
   "name": "VisualStudio",
   "theme": "syntax",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Atom version of the VisualStudio Theme from Sublime by Mihai Ciuraru.",
   "repository": "https://github.com/laktak/atom-vs-syntax",
   "license": "MIT",
