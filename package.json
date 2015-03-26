@@ -2,7 +2,7 @@
   "name": "VisualStudio",
   "theme": "syntax",
   "version": "0.1.2",
-  "description": "Atom version of the VisualStudio Theme from Sublime by Mihai Ciuraru.",
+  "description": "Atom version of the VisualStudio Theme from Sublime by Mihai Ciuraru. This package is no longer maintained and looking for a new owner. If you'd like to take over please let me know!",
   "repository": "https://github.com/laktak/atom-vs-syntax",
   "license": "MIT",
   "engines": {
